@@ -85,7 +85,7 @@ const styles=StyleSheet.create({
         fontWeight:"bold"
     },
     box:{
-        backgroundColor: "red",
+      //  backgroundColor: "red",
         padding:15,
         alignItems:"center",
         width:"80%",

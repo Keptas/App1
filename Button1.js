@@ -5,7 +5,7 @@ import styles from './styles'
 export default function Button1(props){
     return(
         <TouchableOpacity onPress={()=>props.click()}>
-            <View style={styles.button}>
+            <View style={[styles.button, styles.button.backgroundColor>props.color]}>
                 <Text style={styles.text}>{props.name}</Text>
             </View>
         </TouchableOpacity>
