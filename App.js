@@ -2,9 +2,7 @@ import React,{useState} from 'react';
 import { View, Vibration, Text, ProgressViewIOSComponent} from 'react-native';
 import styles from './styles';
 import Button1 from './Button1';
-import Button2 from './Button2';
-import Button3 from './Button3';
-import Button4 from './Button4';
+
 
 
 
@@ -37,10 +35,10 @@ const selected = "red";
     <View style={styles.container}>
       <View style={styles.container1}>
        
-       <Button1 name="Button1" click={() => toggle("yellow",background1,setBackground1)}/>
-       <Button2 name="Button2" click={() =>toggle("green",background2,setBackground2)}/>
-       <Button3 name="Button3" click={() =>toggle("blue",background3,setBackground3)}/>
-       <Button4 name="Button4" click={() =>toggle("orange",background4,setBackground4)}/>
+       <Button1 name="Button1" color="yellow" click={() => toggle("yellow",background1,setBackground1)}/>
+       <Button1 name="Button2" color="green" click={() =>toggle("green",background2,setBackground2)}/>
+       <Button1 name="Button3" color="blue" click={() =>toggle("blue",background3,setBackground3)}/>
+       <Button1 name="Button4" color="orange" click={() =>toggle("orange",background4,setBackground4)}/>
       
      </View> 
      <View style={styles.container2}>
@@ -72,14 +70,3 @@ const selected = "red";
     </View>
   );
 }
-
-
-/*padding:15,
-        alignItems:"center",
-        width:"80%",
-        alignSelf:"center",
-        borderWidth:2,
-        borderColor:"green",
-        marginBottom:80,
-        marginTop:40,
-        height: 57*/ 

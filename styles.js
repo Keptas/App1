@@ -35,7 +35,6 @@ const styles=StyleSheet.create({
         marginBottom:20
     },
     button:{
-        backgroundColor:"yellow",
         padding:15,
         alignItems:"center",
         width:"80%",
@@ -46,39 +45,7 @@ const styles=StyleSheet.create({
         marginTop:40
         
     },
-    button2:{
-        backgroundColor:"green",
-        padding:15,
-        alignItems:"center",
-        width:"80%",
-        alignSelf:"center",
-        borderWidth:2,
-        borderColor:"black",
-        marginBottom:80,
-        marginTop:40
-    },
-    button3:{
-        backgroundColor:"blue",
-        padding:15,
-        alignItems:"center",
-        width:"80%",
-        alignSelf:"center",
-        borderWidth:2,
-        borderColor:"black",
-        marginBottom:80,
-        marginTop:40
-    },
-    button4:{
-        backgroundColor:"orange",
-        padding:15,
-        alignItems:"center",
-        width:"80%",
-        alignSelf:"center",
-        borderWidth:2,
-        borderColor:"black",
-        marginBottom:80,
-        marginTop:40
-    },
+    
     text:{
         fontSize:20,
         color:"black",
